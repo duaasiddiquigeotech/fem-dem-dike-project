@@ -1,0 +1,7 @@
+Point,Source,Total vertical stress (kPa),Pore pressure (kPa),Pore-pressure ratio,Effective vertical stress (kPa),DEM peak resistance (kPa),DEM final resistance (kPa),Peak reduction (%),Final reduction (%),Status
+"Reference state, no pore pressure",DEM reference state,33.4271433717315,0.0,0.0,33.4271433717315,13.938523506857697,7.734171008123213,0.0,1.1102230246251565e-14,Valid effective-stress state
+"Moderate pore pressure, r_u = 0.25",Sensitivity example,33.4271433717315,8.356785842932876,0.25,25.070357528798628,10.453892630143272,5.80062825609241,25.0,25.00000000000001,Valid effective-stress state
+"Half effective stress, r_u = 0.50",Notebook 04 reference case,33.4271433717315,16.71357168586575,0.5,16.71357168586575,6.969261753428849,3.8670855040616066,50.0,50.0,Reduced effective stress
+Assignment excess pore-pressure example,Assignment pore pressure with DEM reference stress,33.4271433717315,17.13,0.5124577894528196,16.297143371731504,6.795618562297237,3.7707348300503054,51.24577894528197,51.24577894528197,Reduced effective stress
+"High pore pressure, r_u = 0.80",Sensitivity example,33.4271433717315,26.741714697385206,0.8,6.685428674346298,2.7877047013715384,1.5468342016246421,80.0,80.0,WARNING: high pore-pressure ratio
+"Very high pore pressure, r_u = 0.95",Notebook 04 limiting case,33.4271433717315,31.755786203144925,0.95,1.671357168586578,0.696926175342886,0.3867085504061613,95.0,95.0,WARNING: very low effective stress

@@ -1,0 +1,36 @@
+Check,Passed
+Notebook 03 result file exists,True
+Notebook 04 result file exists,True
+Notebook 03 run is accepted,True
+Notebook 04 confirms Notebook 03,True
+Notebook 03 and 04 reference stresses match,True
+Notebook 03 and 04 peak strengths match,True
+Notebook 03 and 04 final strengths match,True
+DEM reference vertical stress is positive,True
+DEM peak resistance is positive,True
+DEM final resistance is positive,True
+DEM peak resistance exceeds final resistance,True
+DEM peak strain occurs before final strain,True
+DEM peak friction angle exceeds final angle,True
+FEM domain dimensions are positive,True
+Assignment pore pressure is non-negative,True
+Assignment pore-pressure ratio is valid,True
+Mapped effective stress remains positive,True
+Reusable function reproduces effective stress,True
+Reusable function reproduces peak resistance,True
+Reusable function reproduces final resistance,True
+Peak scaling reproduces Notebook 04,True
+Final scaling reproduces Notebook 04,True
+Mapped peak resistance exceeds final resistance,True
+Mapped resistances remain positive,True
+Strength reduction matches stress reduction,True
+Effective stress decreases with pore pressure,True
+Peak resistance decreases with pore pressure,True
+Final resistance decreases with pore pressure,True
+Peak resistance exceeds final in every case,True
+DEM and FEM strain ranges do not overlap,True
+Comparison is not labelled as full validation,True
+Comparison classification is defined,True
+Friction-angle figure exists,True
+Strength-mapping figure exists,True
+Strain-range figure exists,True

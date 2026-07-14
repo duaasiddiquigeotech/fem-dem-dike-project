@@ -1,0 +1,13 @@
+Quantity,DEM value,FEM value,Unit,Comparison level,Reason,Absolute difference,Relative difference (%)
+Reference vertical stress,33.4271433717315,35.28,kPa,Partial,"Stress magnitudes are similar, but DEM normal stress and FEM principal effective stress are not identical components.",1.8528566282684977,5.251861191237238
+Peak friction angle,22.63526717940552,20.0,degree,Partial,Compared with the dynamic top-clay friction angle. Material calibration and loading paths differ.,2.6352671794055205,13.176335897027602
+Final friction angle,13.803532884465152,,degree,Unavailable,The assignment does not report a residual or post-peak friction angle.,,
+Effective cohesion,0.0,5.0,kPa,Not equivalent,"Notebook 04 assumes zero cohesion, while the top clay uses 5 kPa effective cohesion.",5.0,100.0
+Maximum excess pore pressure,,17.13,kPa,Input only,"The FEM pore pressure can be passed into the DEM-derived effective-stress relationship, but DEM did not generate it.",,
+Peak shear resistance,13.938523506857697,,kPa,Unavailable,The assignment does not provide a corresponding local peak shear stress.,,
+Final shear resistance,7.734171008123213,,kPa,Unavailable,The assignment does not provide a corresponding residual or final local shear stress.,,
+Peak shear strain,0.033053028004127356,0.00301995,-,Range check only,"The FEM value is from a cyclic torsional shear test, while the DEM value is from monotonic direct shear.",0.030033078004127356,994.4892466473735
+Final shear strain,0.08002048818186447,0.00301995,-,Range check only,The DEM post-peak strain is much larger than the reported cyclic laboratory strain range.,0.07700053818186448,2549.728908818506
+Stress ratio,0.41523285191901865,,-,Unavailable,No synchronized local FEM shear stress and normal stress pair is reported.,,
+Settlement,,0.5028,m,Not comparable,The DEM specimen does not represent the complete dike geometry or continuum settlement.,,
+Factor of safety,,3.2,-,Not comparable,"The DEM simulation is a direct-shear specimen, not a strength-reduction slope-stability calculation.",,
