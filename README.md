@@ -107,15 +107,15 @@ This notebook evaluates how increasing pore pressure reduces effective stress an
 
 The effective vertical stress is calculated as:
 
-[
+$$
 \sigma'_v = \sigma_v - u
-]
+$$
 
 The pore-pressure ratio is defined as:
 
-[
+$$
 r_u = \frac{u}{\sigma_v}
-]
+$$
 
 The peak and final DEM shear resistances are scaled with effective stress under the assumptions of zero effective cohesion and linear effective-stress dependence.
 
